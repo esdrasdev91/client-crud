@@ -32,5 +32,6 @@ Seu projeto deverá fazer um seed de pelo menos 10 clientes com dados significat
 (Não é pra usar dados sem significado como “Nome 1, nome 2”, etc.).
 
 Atenção: Crie um novo projeto para este trabalho. Não é para simplesmente acrescentar a classe Client no DSCatalog feito nas aulas.
+
 Atenção: Lembre-se de que por padrão a JPA transforma nomes de atributos em camelCase para snake_case, como foi o caso do campo imgUrl do DSCatalog, 
 que no banco de dados tinha o nome img_Url. Assim, o campo birthDate acima será criado no banco de dados como birth_Date, então seu script SQL deverá seguir este padrão.
